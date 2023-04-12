@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="application-name" content="genera contraseñas seguras" />
+	<meta name="description" content="Una aplicacion que te permite generar contraseñas seguras" />
+	<meta name="keywords" content="crear contraseñas,  generar contraseñas seguras, generador de contraseñas" />
+	<meta name="author" content="Victor Vergara, victorweb3@hotmail.com" />
+    <title>Generator</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<div class="menu"></div>
+    <div class="container">
+		
+
+		<div class="titles">
+		<h1>Generador de contraseñas</h1>
+		<p>Seleccione la longitud de la contraseña:</p>
+		</div>
+
+
+
+		<div class="radio-btn">
+		<input type="radio" id="length12" name="length" value="12" checked class="btn-radio">
+		<label for="length12" class="campo-texto">12 caracteres</label>
+		<input type="radio" id="length16" name="length" value="16" class="btn-radio" >
+		<label for="length16" class="campo-texto">16 caracteres</label>
+		</div>
+			
+
+		<div class="btns">
+		<button class="btn-submit"  id="generateBtn">Generar contraseña</button>
+		<button class="btn-submit"  id="resetBtn">Restaurar</button>
+		<input class="input-pass" type="text" id="password" readonly>
+		</div> 
+
+		<!--<button id="generateBtn">Restaurar</button>-->
+	</div>
+
+<script src="/Javascript/generator.js"></script>    
+</body>
+</html>
